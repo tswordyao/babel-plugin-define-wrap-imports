@@ -1,0 +1,26 @@
+{
+  "name": "babel-plugin-define-wrap-imports",
+  "version": "0.0.6",
+  "description": "imports + define(){} => define(){includes imports}",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc ./source/index.ts -m es6 --lib es6,dom,es2017 --declaration",
+    "test": "node ./test.js"
+  },
+  "keywords": [
+    "define",
+    "imports"
+  ],
+  "author": "Evan yao",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/types": "^7.3.4",
+    "@types/babel-core": "^6.25.6",
+    "@types/babel-traverse": "^6.25.5",
+    "@types/babel-types": "^7.0.6",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {}
+}
